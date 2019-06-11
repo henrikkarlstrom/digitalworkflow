@@ -9,6 +9,12 @@
     height: 50px !important;
 }
 
+slides > slide:not(.nobackground):before {
+  width: 88px;
+  height: 31px;
+  background-size: 88px 31px;
+}
+
 #footnote {
     color: grey;
 }
