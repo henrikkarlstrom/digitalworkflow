@@ -22,3 +22,7 @@ slides > slide:not(.nobackground):before {
 .small {
     font-size: 0.6em;
 }
+
+.img {
+    width: 600px !important;
+}
