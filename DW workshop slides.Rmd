@@ -242,5 +242,8 @@ Can I set up my workflow in a way that is
 ## Resources
 [Foster Open Science](https://www.fosteropenscience.eu/), the EU educational resource for Open Science.
 
-[Open Science MOOC](https://opensciencemooc.eu/), coursework 
+[Open Science MOOC](https://opensciencemooc.eu/), coursework on Open Science principles and tools.
 
+NTNU policies on [Open Access publishing](https://innsida.ntnu.no/wiki/-/wiki/Norsk/NTNU+Open+Access+-+handlingsplan) and [Open Data](https://innsida.ntnu.no/wiki/-/wiki/English/NTNU+Open+Data).
+
+[National policies](https://www.regjeringen.no/en/dokumenter/national-strategy-on-access-to-and-sharing-of-research-data/id2582412/sec1) on the same.
