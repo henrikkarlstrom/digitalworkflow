@@ -26,9 +26,9 @@ Let's also ask them *what type* of research they are doing - this helps us get a
 
 Results of our little survey:
 
-```{r group, include = FALSE, echo = FALSE}
-group <- tibble(Field = c("Bibliometrics,
-                          Game studies",
+```{r group, include = TRUE, echo = FALSE}
+group <- tibble(Field = c("Bibliometrics",
+                          "Game studies",
                           "Mathematics",
                           "Petroleum engineering",
                           "Energy and process engineering",
