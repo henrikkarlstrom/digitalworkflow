@@ -26,7 +26,7 @@ Let's also ask them *what type* of research they are doing - this helps us get a
 
 Results of our little survey:
 
-```{r group, include = TRUE, echo = FALSE}
+```{r group, include = FALSE, echo = FALSE}
 group <- tibble(Name = c("Henrik"),
                 Field = c("Bibliometrics"),
                 Research = c("Statistics, coding, prose"))
@@ -127,15 +127,6 @@ Many research funders now require the development of a heap of auxiliary informa
 <font size="2">Earp, B. and D. Trafimov (2015) [Replication, falsification, and the crisis of confidence in social psychology](https://www.frontiersin.org/articles/10.3389/fpsyg.2015.00621/full). *Frontiers in Psychology*</font>
 
 ##
-
-This is the whole abstract of an interesting paper in the field of genomic biology:
-
-<blockquote> The spreadsheet software Microsoft Excel, when used with default settings, is known to convert gene names to dates and floating-point numbers. A programmatic scan of leading genomics journals reveals that approximately one-fifth of papers with supplementary Excel gene lists contain erroneous gene name conversions. </blockquote>
-
-<font size="2">Ziemann, M., Y. Eren, A. El-Osta (2016) [Gene name errors are widespread in the scientific literature](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7). *Genome Biology* 17:177</font>
-
-## Storytime
-
 <div class="notes">
 In 2009, I did some data collection in connection with my doctoral research regarding people's habits and considerations around the availability and price of electricity. The department had secured some external funding from various industry partners, and spent almost 250.000 NOK soliciting answers from 1500 Norwegians on a survey on this topic. To achieve 1500 answers they had to ask more than 22.000 people....
 
@@ -145,6 +136,15 @@ It also creates a log file that can be used to recreate the procedure of several
 
 Eight years later, a researcher looking to do a meta-analysis on a collection of such survey data contacted me, asking me for the underlying data and some explanation of the relevant variable definitions. So I went looking for the data, and finally found them in a subfolder on my (now mostly inactive) Dropbox account.
 </div>
+
+This is the whole abstract of an interesting paper in the field of genomic biology:
+
+<blockquote> The spreadsheet software Microsoft Excel, when used with default settings, is known to convert gene names to dates and floating-point numbers. A programmatic scan of leading genomics journals reveals that approximately one-fifth of papers with supplementary Excel gene lists contain erroneous gene name conversions. </blockquote>
+
+<font size="2">Ziemann, M., Y. Eren, A. El-Osta (2016) [Gene name errors are widespread in the scientific literature](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7). *Genome Biology* 17:177</font>
+
+
+## Storytime
 
 Here are some rows of some of the columns:
 
@@ -179,7 +179,7 @@ knitr::kable(storytime[1:5, 18:22])
   - Research habits change very slowly
     - Being too far ahead of the pack can be more work than it's worth
   - Funder mandates are actually minimal
-  - 
+  - There are few repercussions, if any
 
 
 </div>
@@ -190,14 +190,12 @@ Can I set up my workflow in a way that is
 
 - resource-efficient
 - modular
-- 
+- transparent and accountable
 
-
+If I can, how much time and effort is it worth?
 
 
 # Part III: Examples of digital workflows
-
-
 
 ## The general idea
 
@@ -206,37 +204,49 @@ Can I set up my workflow in a way that is
 
 ## Collaborating
 
-- Always updated, always available for everyone?
-  - Sharepoint (requires institutional credentials)
-  - [Overleaf](www.overleaf.com) (becomes better with knowledge of the world's worst markup language, LaTeX)
-  - [Jupyter notebooks](https://jupyter.org/) / [RMarkdown](https://rmarkdown.rstudio.com/) (become better with coding knowledge)
+What is a modern way to ensure that the work I do with others is always updated and always available for everyone that I collaborate with?
+
+- Sharepoint (requires institutional credentials)
+- [Overleaf](www.overleaf.com) (becomes better with knowledge of the world's worst markup language, LaTeX)
+- [Jupyter notebooks](https://jupyter.org/) / [RMarkdown](https://rmarkdown.rstudio.com/) (become better with coding knowledge)
 
 
 ## Keeping track
 
-- Version control software
-  - Git
-  
+Version control software ensures integrity over time and context of text and other elements that you track with the software. Proper use guarantees against loss of work and goes a long wy towards ensuring transparency and accountability in the research process.
+
+This is also a superior way of doing collaboration, as a repository can hold auxiliary files in addition to the text being edited, and all of it can be sent/updated in an integrated fashion.
+
 
 ## Documenting
 
-- If you treat your 
+If you treat your current publication as a small project in its own right, documentation can be done concurrently with project development. This requires a small upfront investment, but saves a lot of work downstream and improves the quality of the work in the process.
+
+Remember, documentation is not just about computer code or statistical data - any form of analysis that is actually *processing information* will require a thorough demonstration of this processing to show how you arrive at the conclusions you present in the text. This includes stuff like text analysis or qualitative interview data.
 
 
 ## Sharing
 
-- Zenodo
-- Github
+Once you have everything done and would like to share your results, how do you do it?
+
+- Repository
+  - [Zenodo](https://zenodo.org/), for citable dissemination of code, data and text.
+  - Github
+- Preprint server
+  - [arXiv](https://arxiv.org)
+  - [OSF preprints](https://osf.io/preprints/)
 
 
-## 
+## Disseminating
+
+The workflow thinking described above actually greatly eases the work connected to dissemination. Not only are the different parts of your research properly documented, linkable, shareable and citable, but using integrated development environments enables the production of many kinds of output from the same source.
 
 
 ## The trade-offs
 
-- There are powerful, efficient tools at our disposal
-- There is a learning curve of varying steepness
-- Maybe 
+There are powerful, efficient tools at our disposal that can both mitigate against administrative burnout and improve the quality of our work and the workflow experience itself.
+
+There is, however, a learning curve of varying steepness to integrate these things into an existing workflow. Is the time and effort worth it? Different researchers will have differing comfort levels regarding this.
 
 
 ## Resources
