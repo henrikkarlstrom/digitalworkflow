@@ -192,13 +192,13 @@ knitr::kable(storytime[1:5, 18:22])
 
 ## Just don't do it
 
-![](i would prefer not to.png){.imgwide}
+![](not_prefer.png){.imgwide}
 
 ## 
 
 <div class="columns-2">
 
-  ![](not_prefer.png){.imgtall}
+  ![](keep_calm.png){.imgtall}
   
   - Research habits change very slowly
     - Being too far ahead of the pack can be more work than it's worth
